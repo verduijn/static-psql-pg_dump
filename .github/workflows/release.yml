@@ -18,6 +18,6 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files:
-            - psql
-            - pg_dump
+          files: |
+            psql
+            pg_dump
